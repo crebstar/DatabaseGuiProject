@@ -1,0 +1,20 @@
+/* 
+    Document   : skeleton
+    Created on : Oct 30, 2012, 6:04:17 PM
+    Author     : Paul
+    Description:
+       Style sheet used for the general layout of
+       our website. Should be able to re use on all
+       pages to make the look and feel consistent
+*/
+
+root { 
+    display: block;
+}
+
+h3 {
+    
+    background-color: red;
+    
+}
+

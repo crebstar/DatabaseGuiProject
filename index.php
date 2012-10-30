@@ -1,16 +1,21 @@
 <!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
+This is our welcome page. The first page users will see
 -->
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
+        <script type="text/javascript" src="./js/WelcomePage.js"></script>
+        <Link href="./css/skeleton.css" rel="stylesheet" type="text/css">
+        <title> Snapshot - The Place For Amateur Photographers </title>
     </head>
     <body>
+        
+        
+        
         <?php
-                echo "<h1> Hello World Test Using NetBeans IDE";
+                // Insert php code here
+                echo "<h3> Snapshot </h3>";
         ?>
     </body>
 </html>
