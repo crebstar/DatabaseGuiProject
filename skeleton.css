@@ -8,13 +8,91 @@
        pages to make the look and feel consistent
 */
 
+html {
+    
+    height: 100%;
+    
+}
+
 root { 
     display: block;
 }
 
-h3 {
+body {
     
-    background-color: red;
+    margin: 0;
+    background: #F4F4F2;
+    font: 1.2em/22px "helvetica neue",Helvetica,Arial,Verdana,sans-serif;
+    color: #555;
+    min-width: 1003px;
+    height: 100%;
     
+    /* DARKER BLUE SOLID COLOR
+    background-color: #182947;*/
+    
+    
+   /* Dark Blue to Black Gradient */ 
+    background-image: -ms-linear-gradient(bottom, #000105 0%, #003954 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(bottom, #000105 0%, #003954 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(bottom, #000105 0%, #003954 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000105), color-stop(1, #003954));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(bottom, #000105 0%, #003954 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to top, #000105 0%, #003954 100%);
+
+    /* Prevents Gradient From Repeating */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+div#wrapper {
+    
+    width:100%;
+    
+    display:table;
+    
+}
+
+div#wrapper #header {
+    
+    display: table-header-group;
+  
+    
+}
+
+div#wrapper .topBlock {
+    
+    display: block;
+    
+}
+
+div#wrapper .topHolder {
+    
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    font-size: 10px;
+    padding: 2px 0;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    min-height: 20px;
+    height: auto;
 }
 
