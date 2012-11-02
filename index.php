@@ -24,6 +24,73 @@ This is our welcome page. The first page users will see
                 <!-- end topBlock -->    
                 </div>
                 
+                <div class="headerHolder">
+                    
+                    <div class="headerArea">
+                        <a> 
+                            <!-- Insert Logo Here -->
+                            <!-- image -->
+                                
+                             
+    
+                            
+                        </a>
+                        
+                        <!-- ***************** - Main Navigation - ***************** -->
+                        <ul id="navigationBar">
+                            <li class="navButton">
+                                <!-- Home Button -->
+                                <a>
+                                <!-- Insert link as attribute to a -->
+                                <span>
+                                    <strong> 
+                                        Home
+                                    </strong>
+                                </span>
+                                </a>
+                            </li>
+                             <li class="navButton">
+                                <!-- Home Button -->
+                                <a>
+                                <!-- Insert link as attribute to a -->
+                                <span>
+                                    <strong> 
+                                        My Profile
+                                    </strong>
+                                </span>
+                                </a>
+                            </li>
+                             <li class="navButton">
+                                <!-- Home Button -->
+                                <a>
+                                <!-- Insert link as attribute to a -->
+                                <span>
+                                    <strong> 
+                                        FAQ
+                                    </strong>
+                                </span>
+                                </a>
+                            </li>
+                             <li class="navButton">
+                                <!-- Home Button -->
+                                <a>
+                                <!-- Insert link as attribute to a -->
+                                <span>
+                                    <strong> 
+                                        Sign Up
+                                    </strong>
+                                </span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        
+                        
+                    <!-- end headerHolder -->    
+                    </div>
+                <!-- end headerHolder -->
+                </div>
+                
             <!-- end header -->
             </div>
         <!-- end wrapper -->
