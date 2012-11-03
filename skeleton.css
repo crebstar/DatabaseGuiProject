@@ -23,7 +23,7 @@ body {
     margin: 0;
     background: #F4F4F2;
     font: 1.2em/22px "helvetica neue",Helvetica,Arial,Verdana,sans-serif;
-    color: #555;
+    color: ivory;
     min-width: 1003px;
     height: 100%;
     
@@ -79,7 +79,7 @@ div#wrapper .topBlock {
 
 div#wrapper .topHolder {
     
-    background-color: yellow;
+    /*background-color: yellow;*/
     
     display: block;
     width: 1000px;
@@ -100,7 +100,7 @@ div#wrapper .topHolder {
 
 div#wrapper .headerArea {
     
-    background-color: red;
+    /*background-color: red;*/
     
     width: 980px;
     margin: 0 auto;
@@ -117,13 +117,76 @@ div#wrapper .headerArea {
     
 }
 
+div#wrapper img#snapshotLogo {
+    
+    float:left;
+    
+}
+
 div#wrapper ul#navigationBar {
     
     /* Remove the bullets */
     list-style: none;
     margin: 0px;
-    padding: .4em;
-    border : 2px solid #ccc;
+    padding: .6em;
+    float:right;
+    margin-top: 29px; /* Centers the nav menu with the logo */
+    /*Test code to see the actual size of the list*/
+    /*border : 2px solid #ccc;*/
     
+}
+
+div#wrapper ul#navigationBar ul#secondaryNavigationBar {
+    
+    list-style: none;
+    margin: 0px;
+    padding: .4em;
+    margin-right: 4px;
+    
+}
+
+div#wrapper ul#navigationBar li {
+    
+    float:left;
+    margin-right: 0px;
+    border-right:  1px solid #f9f9f9;
+    border-left:  1px solid #f9f9f9;
+    width: 130px;
+    text-align: center;
+}
+
+div#wrapper ul#navigationBar a {
+    
+    display:block;
+    padding: 0.5em;
+    /*background-color: #f9f9f9;*/
+   
+}
+
+div#wrapper ul#navigationBar li:hover {
+    
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+ul#secondaryNavigationBar {
+    
+    position: absolute;
+    display:none;
+    padding: 0px;
+    
+}
+
+div#wrapper ul#navigationBar li:hover ul {
+    
+    display:inline-block;
+    
+}
+
+div#wrapper ul#navigationBar li li {
+    text-align: center;
+    float:none;
     
 }

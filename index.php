@@ -30,10 +30,7 @@ This is our welcome page. The first page users will see
                         <a> 
                             <!-- Insert Logo Here -->
                             <!-- image -->
-                                
-                             
-    
-                            
+                            <img id="snapshotLogo" src="img/Snapshot Logo.png" />
                         </a>
                         
                         <!-- ***************** - Main Navigation - ***************** -->
@@ -66,10 +63,44 @@ This is our welcome page. The first page users will see
                                 <!-- Insert link as attribute to a -->
                                 <span>
                                     <strong> 
-                                        FAQ
+                                        More
                                     </strong>
                                 </span>
                                 </a>
+                                <ul id="secondaryNavigationBar">
+                                    <li class="secondaryNavButton">
+                                            <a>
+                                            <!-- Insert link as attribute to a -->
+                                            <span>
+                                                <strong> 
+                                                    FAQ
+                                                </strong>
+                                            </span>
+                                            </a>
+                                    </li>
+                                     <li class="secondaryNavButton">
+                                            <a>
+                                            <!-- Insert link as attribute to a -->
+                                            <span>
+                                                <strong> 
+                                                    About
+                                                </strong>
+                                            </span>
+                                            </a>
+                                    </li>
+                                     <li class="secondaryNavButton">
+                                            <a>
+                                            <!-- Insert link as attribute to a -->
+                                            <span>
+                                                <strong> 
+                                                    Contact Us
+                                                </strong>
+                                            </span>
+                                            </a>
+                                    </li>
+                                    
+                                <!-- End Secondary List -->
+                                </ul>
                             </li>
                              <li class="navButton">
                                 <!-- Home Button -->
