@@ -47,7 +47,7 @@ This is our welcome page. The first page users will see
                                 </a>
                             </li>
                              <li class="navButton">
-                                <!-- Home Button -->
+                                <!-- Home Button Here -->
                                 <a>
                                 <!-- Insert link as attribute to a -->
                                 <span>
